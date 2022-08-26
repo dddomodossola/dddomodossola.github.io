@@ -52,6 +52,7 @@ p {
 
 .title {
     grid-area: title;
+    text-align: center;
 }
 
 .info {
