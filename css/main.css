@@ -42,7 +42,7 @@ p {
         'content content' 
         'footer footer';
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50px 100px auto 20px;
+    grid-template-rows: 50px 200px auto 20px;
     /*height: 100%;*/
     padding: 0px;
     width: 95%;
