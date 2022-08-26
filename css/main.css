@@ -69,6 +69,8 @@ p {
 
 .footer {
     grid-area: footer;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 
@@ -87,7 +89,6 @@ section {
 
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts { 
