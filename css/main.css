@@ -28,6 +28,39 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+.title {
+    grid-area: 'title';
+}
+
+.info {
+    grid-area: 'info';
+}
+
+.picture {
+    grid-area: 'picture';
+}
+
+.content {
+    grid-area: 'content';
+}
+
+.footer {
+    grid-area: 'footer';
+}
+
+.layout {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+        'title title' 
+        'info picture' 
+        'content content' 
+        'footer footer';
+    width: 100%;
+    height: 100%;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
