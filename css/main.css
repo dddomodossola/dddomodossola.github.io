@@ -30,23 +30,23 @@ p {
 }
 
 .title {
-    grid-area: 'title';
+    grid-area: title;
 }
 
 .info {
-    grid-area: 'info';
+    grid-area: info;
 }
 
 .picture {
-    grid-area: 'picture';
+    grid-area: picture;
 }
 
 .content {
-    grid-area: 'content';
+    grid-area: content;
 }
 
 .footer {
-    grid-area: 'footer';
+    grid-area: footer;
 }
 
 .layout {
