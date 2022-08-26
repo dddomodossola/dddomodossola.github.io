@@ -57,6 +57,8 @@ p {
         'info picture' 
         'content content' 
         'footer footer';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 100px auto 20px;
     width: 100%;
     height: 100%;
 }
