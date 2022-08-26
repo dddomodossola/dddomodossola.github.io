@@ -46,10 +46,10 @@ p {
         'footer footer';
     grid-template-columns: 50% 50%;
     grid-template-rows: 50px 100px auto 20px;
-    width: 100%;
     /*height: 100%;*/
-    margin: 0px;
     padding: 0px;
+    width: 95%;
+    margin: 0px auto;
 }
 
 .title {
@@ -65,12 +65,12 @@ p {
 
 .picture {
     grid-area: picture;
+    width: 100%;
+    height: 100%;
 }
 
 .content {
     grid-area: content;
-    width: 95%;
-    margin: 0px auto;
 }
 
 .footer {
