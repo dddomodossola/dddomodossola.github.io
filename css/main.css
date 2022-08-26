@@ -82,9 +82,14 @@ section {
     margin-bottom: 10px;
 }
 
-.section_title{
+.section_title {
     font-weight: bold;
     border-bottom: 1px solid gray;
+}
+
+.section_content {
+    font-size: 11px;
+    line-height: 11px;
 }
 
 footer {
