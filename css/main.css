@@ -28,6 +28,7 @@ a:hover {
 h1 {
     font-size: 50px;
     line-height: 50px;
+    margin: 0px;
 }
 p {
     font-size: 1.5em;
@@ -90,6 +91,7 @@ section {
 .section_content {
     font-size: 11px;
     line-height: 11px;
+    white-space: pre;
 }
 
 footer {
