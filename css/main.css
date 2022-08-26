@@ -69,7 +69,7 @@ p {
 
 .footer {
     grid-area: footer;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 20px;
 }
 
@@ -92,8 +92,7 @@ footer {
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+    margin: 0px; 
 }
 
 ul.posts li {
