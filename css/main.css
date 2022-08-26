@@ -39,10 +39,9 @@ p {
     grid-template-areas: 
         'title title' 
         'info picture' 
-        'content content' 
-        'footer footer';
+        'content content';
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50px 200px auto 20px;
+    grid-template-rows: 50px 200px auto;
     /*height: 100%;*/
     padding: 0px;
     width: 95%;
@@ -73,12 +72,6 @@ p {
     grid-area: content;
 }
 
-.footer {
-    grid-area: footer;
-    font-size: 12px;
-    line-height: 20px;
-}
-
 
 section {
     display: flex;
@@ -98,20 +91,4 @@ section {
     font-size: 11px;
     line-height: 11px;
     white-space: pre;
-}
-
-footer {
-    border-top: 1px solid #d5d5d5;
-}
-
-ul {
-    margin: 0px;
-}
-
-ul.posts { 
-    margin: 0px; 
-}
-
-ul.posts li {
-    list-style: none;
 }
