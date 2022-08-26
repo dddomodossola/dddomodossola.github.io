@@ -60,7 +60,8 @@ p {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50px 100px auto 20px;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    margin: 0px;
 }
 
 footer {
