@@ -81,11 +81,13 @@ section {
     align-items: flex-start;
     justify-content: flex-start;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 .section_title {
     font-weight: bold;
     border-bottom: 1px solid gray;
+    width: 100%
 }
 
 .section_content {
